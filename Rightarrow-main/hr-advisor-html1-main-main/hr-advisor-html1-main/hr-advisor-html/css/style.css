@@ -5915,3 +5915,22 @@ background-color: #006818;
 .site_footer_wrap{
 	margin-top: 1%;
 }
+
+/* Default styles */
+.element {
+    text-align: left; /* Default alignment */
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    .element {
+        text-align: center; /* Center alignment on mobile */
+    }
+}
+
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .element {
+        text-align: left; /* Left alignment on tablet */
+    }
+}
